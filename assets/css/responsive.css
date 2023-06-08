@@ -1,0 +1,98 @@
+
+
+@media all and (max-width: 991px){
+	.logo-justify{
+		justify-content: left !important;
+	}
+	/*counter*/
+.fun-count span {
+	font-size: 7rem;
+}
+/*team-control*/
+.team-control .col-md-6:nth-child(1),.team-control .col-md-6:nth-child(2){
+	margin-bottom: 3rem;
+}
+}
+
+@media all and (min-width: 767px){
+	 .menu:after{
+    	display:block;
+    	content: "";
+    	clear: both;
+    }
+     .menu  ul{
+     	display: block !important;
+     }
+     .menu ul li{
+	display: inline;
+}
+
+
+}
+@media all and (max-width: 767px){
+	#service-area {
+	scroll-margin-top: 30rem;
+}	
+     .bar-show{
+     	display: block !important;
+     }
+     .bar-xing{
+     	display: block !important;
+     }
+    .menu {
+	border-top: 0.1rem solid var(--common-bg);
+	border-bottom: 0.4rem outset var(--common-bg);
+    } 
+
+    .menu ul {
+    text-align: center;
+	height: 21rem;
+	overflow: scroll;
+	max-width: 50%;
+	width: 100%;
+	margin: 0 auto;
+	display: none;
+}
+
+.menu ul li a{
+	display: block;
+}
+.banner-area h1 {
+	font-size: 6rem;
+}
+.mySwiper:hover .swiper-button-prev{
+    left: var(--swiper-navigation-sides-offset,30px);
+}
+.mySwiper:hover .swiper-button-next{
+    right: var(--swiper-navigation-sides-offset,30px);
+}
+.team-control .col-md-6{
+	margin-bottom: 3rem;
+}
+}
+
+@media all and (max-width: 575px){
+
+.slide-buttons::after {
+	font-size: 2rem;
+}
+.slide-buttons {
+	padding: 2rem 2rem;
+}
+.banner-area h1 {
+	font-size: 5rem;
+}
+}
+@media all and (max-width: 480px){
+
+.banner-area h3 {
+	font-size: 2rem;
+
+}
+.service-content h2 mark {
+	font-size: 3.6rem;
+}
+}
+
+
+
