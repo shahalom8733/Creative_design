@@ -1,5 +1,32 @@
-/*google font*/
+/*
+Template Name: CREATIVE AND PASSION
+Template URI: https://coderitsolution.com;
+Author: Shahalom
+Author URL: https://ashik.me
+Description:This is Test CREATIVE AND PASSION template
+Tags: gaming website, html template, PSD to html
+Version: 1.0.0
+ 
+Table of Content
+================
+** Import google font **
+** Default CSS **
+1: Header Top Area 
+2: Banner Area 
+3: Service Area 
+4: Counter Area 
+5: Team Area 
+6: Working Area 
+7: Partnar Area;
+8: Happy-client Area;
+9: News and event Area;
+10: Tuching Area;
+11: Footer Area;
+*/
+
+/*import-google font*/
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
 /*default css*/
 :root {
 	--hue: 223;
@@ -17,7 +44,7 @@ html{
 body {
 	transition: background-color var(--trans-dur),
 	color var(--trans-dur);
-  background: #025464;
+  background: #222222;
 	font-size: 1.6rem;
   font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth; 
@@ -36,8 +63,7 @@ img{
 	display: block;
 	width: 100%;
 }
-/**********************************lodar*******************/
-
+/* lodar */
 .loder{
 	width: 100%;
 	height: 100vh;
@@ -161,7 +187,11 @@ img{
 	from { transform: rotateY(0) rotateZ(-145deg) translateY(-100%) rotateZ(145deg) rotateY(0); }
 	to { transform: rotateY(-1turn) rotateZ(-145deg) translateY(-100%) rotateZ(145deg) rotateY(1turn); }
 }
-/*************************/
+/* ene-pre loder */
+
+/*end-default-css*/
+
+/*start-header-top*/
 .logo-area a{
   position: relative;
 }
@@ -222,6 +252,8 @@ img{
 .menu ul li:hover a, .menu ul li a.active{
   color: var(--common-bg);
 }
+/*end-header-top-area*/
+
 /*banner-area*/
 /*swiper-slider-css*/
 .mySwiper{
@@ -261,6 +293,8 @@ img{
 .slide-buttons:after{
   font-size: 3rem;
 }
+/*end-swiper-slider*/
+
 .banner-conent {
     position: absolute;
     top: 0;
@@ -273,17 +307,6 @@ img{
     align-items: center;
     color: white;
     z-index: 11;
-}
-.banner-conent:before{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -11;
-  background: rgba(0, 0, 0, .6);
-
 }
 .banner-conent:after{
   content: "";
@@ -340,8 +363,9 @@ img{
   text-transform: uppercase;
   transition: .4s;
 }
-/*service-area*/
+/*end-banner-area*/
 
+/*service-area*/
 .service-area{
   padding: 6rem 0;
 }
@@ -407,8 +431,8 @@ img{
   font-size: 1.7rem;
   color: white;
 }
-
-/*counter-area*/
+/*end-service-area*/
+/*start-counter-area*/
 .counter-area, .skills, .partnar-area{
     background-image: url(../images/count-bg.jpg);
     height: 100%;
@@ -462,9 +486,10 @@ img{
     font-weight: 500;
     color: white;
 }
+/*end-counter-area*/
+
 /*team-area*/
 .team-area {
-    background: #025464;
     padding: 8rem 0;
 }
 
@@ -546,6 +571,8 @@ transform: scale(1.0);
   color: var(--common-bg);
 }
 
+/*end-team-aera*/
+
 /*progressbar-css*/
 .skills{
   background-image: url(../images/skills.jpg);
@@ -575,15 +602,19 @@ transform: scale(1.0);
   font-size: 6rem !important;
   margin-top: 50px !important;
 }
+/*end-progress-bar*/
+/*end-team-area*/
+
 /*working_area*/
 .work-area{
-  padding: 8rem;
+  padding: 8rem 0;
 }
 .work-menu {
     padding-top: 5rem;
 }
 .work-menu ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -664,8 +695,12 @@ transform: scale(1.0);
     padding: 3rem 6rem;
 }
 .test-popup-link i{
-  color: red;
+ color: #361A22;
 }
+.players a {
+    color: #361A22;
+}
+/*end-working-area*/
 /*Partnar-area*/
 .partnar-area{
   background-image: url(../images/parntnar.jpg);
@@ -696,7 +731,7 @@ transform: scale(1.0);
   border: .1rem solid white;
 }
 .pricing-area{
-  padding: 8rem;
+  padding: 8rem 0;
 }
 /*price-area*/
 .plane-space {
@@ -766,6 +801,8 @@ transform: scale(1.0);
   background: white;
   color: var(--common-bg);
 }
+/*end-partnar-area*/
+
 /*happy-client-area*/
 .testimonial{
   background-image: url(../images/cambg_2.jpg);
@@ -862,6 +899,7 @@ span.swiper-pagination-bullet {
 .swiper-pagination-bullet {
   opacity: 1;
 }
+/* end-happy-client-area*/
 /*news and event-area */
 
 .news-area{
@@ -869,12 +907,12 @@ span.swiper-pagination-bullet {
 }
 .news-padding{
   padding-top: 6rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+
 }
 .date-formate{
   position: relative;
+  padding: 0rem 1.5rem;
+  margin-bottom: 5rem;
 }
 .blog-img{
  overflow: hidden;
@@ -924,6 +962,7 @@ span.swiper-pagination-bullet {
   font-size: 1.7rem;
   padding-top: 1.5rem;
 }
+/* end-news and event-area */
 /*touch-area*/
 .input-area{
   text-align: center;
@@ -1062,6 +1101,7 @@ textarea{
 textarea::placeholder{
     color: var(--common-bg);  
 }
+/*end-touch-area*/
 /*footer-area*/
 .footer-area{
   padding: 12rem 0;
@@ -1110,3 +1150,4 @@ textarea::placeholder{
   background: white;
   transition: .6s;
 }
+/*end-footer-area*/
