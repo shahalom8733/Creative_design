@@ -1,9 +1,13 @@
 
-
 @media all and (max-width: 991px){
 	.logo-justify{
-		justify-content: left !important;
+		-webkit-box-pack: left !important;
+		    -ms-flex-pack: left !important;
+		        justify-content: left !important;
 	}
+	.menu  ul{
+     	text-align: center;
+     }
 	/*counter*/
 .fun-count span {
 	font-size: 7rem;
@@ -11,6 +15,20 @@
 /*team-control*/
 .team-control .col-md-6:nth-child(1),.team-control .col-md-6:nth-child(2){
 	margin-bottom: 3rem;
+}
+.center-items{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.price-plane {
+	margin-bottom: 6rem;
+}
+.tuching  .swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom:7rem;
 }
 }
 
@@ -69,6 +87,14 @@
 .team-control .col-md-6{
 	margin-bottom: 3rem;
 }
+.service-icons {
+	width: 14rem;
+	height: 14rem;
+}
+.devided {
+	-ms-grid-columns: (1fr)[1];
+	grid-template-columns: repeat(1, 1fr);
+}
 }
 
 @media all and (max-width: 575px){
@@ -82,6 +108,9 @@
 .banner-area h1 {
 	font-size: 5rem;
 }
+.contact {
+	margin-bottom: 5rem;
+}
 }
 @media all and (max-width: 480px){
 
@@ -91,6 +120,15 @@
 }
 .service-content h2 mark {
 	font-size: 3.6rem;
+}
+.tuching  .swiper-pagination-bullets.swiper-pagination-horizontal{
+    display: none;
+}
+.input-area input[type="email"] {
+	margin-bottom: 3rem;
+}
+.footer-area a {
+	margin-bottom: 3rem;
 }
 }
 

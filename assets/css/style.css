@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 301faa103d9d1244090218b22c2429f3e240d551
 /*
 Template Name: CREATIVE AND PASSION
 Template URI: https://coderitsolution.com;
@@ -43,6 +46,7 @@ html{
 }
 
 body {
+<<<<<<< HEAD
   -webkit-transition: background-color var(--trans-dur),
   color var(--trans-dur);
   -o-transition: background-color var(--trans-dur),
@@ -51,6 +55,12 @@ body {
   color var(--trans-dur);
   background: #222222;
   font-size: 1.6rem;
+=======
+	transition: background-color var(--trans-dur),
+	color var(--trans-dur);
+  background: #222222;
+	font-size: 1.6rem;
+>>>>>>> 301faa103d9d1244090218b22c2429f3e240d551
   font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth; 
   overflow-x: hidden !important;
@@ -751,6 +761,7 @@ img{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+<<<<<<< HEAD
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;
@@ -759,6 +770,11 @@ img{
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+=======
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+>>>>>>> 301faa103d9d1244090218b22c2429f3e240d551
 }
 .work-menu ul li {
     padding: 1rem 2rem;
@@ -1409,4 +1425,8 @@ textarea::placeholder{
   -o-transition: .6s;
   transition: .6s;
 }
+<<<<<<< HEAD
 /*end-footer-area*/
+=======
+/*end-footer-area*/
+>>>>>>> 301faa103d9d1244090218b22c2429f3e240d551
